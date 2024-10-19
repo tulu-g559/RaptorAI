@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to bottom, black, #00004d); /* Dark gradient from black to deep blue */
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* ... rest of your CSS code ... */
+
+.container {
+    text-align: center;
+    background-color: #242424;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 2rem;
+    color: #f0f0f0;
+}
+
+.mic-wrapper {
+    margin-top: 20px;
+}
+
+.mic-btn {
+    background-color: #008CBA;
+    color: white;
+    font-size: 1.5rem;
+    padding: 15px 30px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.mic-btn:active {
+    background-color: #005f73;
+}
+
+#conversation-history {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #f0f0f0;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.history-entry {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #242424;
+}
+
+.user-input {
+    font-weight: bold;
+    color: #005f73;
+}
+
+.ai-response {
+    margin-top: 5px;
+    color: #f0f0f0;
+}
