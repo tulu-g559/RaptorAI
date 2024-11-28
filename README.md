@@ -1,5 +1,5 @@
 # AI Voice Assistant
-This repository contains the code for an AI voice assistant that uses the Gemini 1.5 Pro language model. The assistant is designed to be able to understand and respond to a wide range of questions and commands, and to provide informative and helpful responses.
+This repository contains the code for an AI voice assistant that uses the Gemini-1.5-flash language model. The assistant is designed to be able to understand and respond to a wide range of questions and commands, and to provide informative and helpful responses.
 
 
 ## **Getting Started**
