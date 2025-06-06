@@ -15,7 +15,7 @@ genai.configure(api_key=api_key)
 
 app = Flask(__name__)
 
-model = genai.GenerativeModel("models/gemini-1.5-pro")
+model = genai.GenerativeModel("models/gemini-2-pro")
 
 # Global variables to store conversation history and context
 conversation_history = []
