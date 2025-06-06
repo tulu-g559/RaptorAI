@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Raptor AI - Catches your voic fast</h1>
+        <div class="mic-wrapper">
+            </div>
+        <div class="mic-wrapper">
+            <button id="start-record-btn" class="mic-btn">🎤 Speak</button>
+            <button id="stop-speak-btn" class="stop-btn" disabled>🔇 Stop Speaking</button>
+        <div id="response-text"></div>
+        <div id="conversation-history"></div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
